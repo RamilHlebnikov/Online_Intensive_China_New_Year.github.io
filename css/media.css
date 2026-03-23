@@ -1285,7 +1285,7 @@
         padding-top: 45px;
         padding-bottom: 45px;
         box-sizing: border-box;
-        background-color: var(--primary-color);
+        background-color: var(--primary-dark);
     }
 
     .form__container {
@@ -2765,7 +2765,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
         box-sizing: border-box;
-        background-color: var(--primary-color);
+        background-color: var(--primary-dark);
     }
 
     .form__container {
@@ -3924,7 +3924,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
         box-sizing: border-box;
-        background-color: var(--primary-color);
+        background-color: var(--primary-dark);
     }
 
     .form__container {

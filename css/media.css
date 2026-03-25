@@ -96,7 +96,7 @@
         border-radius: 50% 50% 0 0;
     }
 
-    /* Анимация движения щёточки для мобильных */
+    /* Анимация движения щёточки */
     @keyframes brushMoveMobile {
         0% {
             transform: translateX(-50%) translateY(0) rotate(0deg);
@@ -936,7 +936,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
         .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -1744,7 +1744,7 @@
         transition: opacity 0.3s ease;
     }
 
-    /* Скрываем логотип когда меню открыто */
+    /* Логотип скрыт когда меню открыто */
     .nav.active ~ .container .header__logo {
         opacity: 0;
         pointer-events: none;
@@ -2424,7 +2424,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
